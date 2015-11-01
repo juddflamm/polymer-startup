@@ -32,14 +32,12 @@
     "express": "^4.13.3",
     "jade": "^1.11.0",
     "morgan": "^1.6.1",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {
+    "path": "^0.12.7",
     "bower": "^1.6.5",
-    "browser-sync": "^2.9.11",
-    "del": "^2.0.2",
     "gulp": "^3.9.0",
     "polybuild": "^1.0.5",
-    "run-sequence": "^1.1.4"
+    "run-sequence": "^1.1.4",
+    "del": "^2.0.2",
+    "browser-sync": "^2.9.11"
   }
 }
