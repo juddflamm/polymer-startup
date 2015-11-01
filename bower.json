@@ -1,0 +1,23 @@
+{
+  "name": "polymer-startup",
+  "description": "Starter web app using Polymer, Bower, NodeJS, Express, and Gulp",
+  "main": "",
+  "authors": [
+    "github.com/kd7yva"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "built",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~1.2.1"
+  }
+}
