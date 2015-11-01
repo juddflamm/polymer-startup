@@ -2,8 +2,19 @@
   "name": "polymer-startup",
   "version": "1.0.0",
   "description": "Starter web app using Polymer, Bower, Node, Express, Gulp, Polybuild, and BrowserSync",
-  "keywords": ["polymer","bower","node","express","gulp","polybuild","browsersync"],
-  "repository": { "type": "git", "url": "https://github.com/kd7yva/polymer-startup.git"},
+  "keywords": [
+    "polymer",
+    "bower",
+    "node",
+    "express",
+    "gulp",
+    "polybuild",
+    "browsersync"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kd7yva/polymer-startup.git"
+  },
   "engines": {
     "node": "4.2.0"
   },
@@ -24,10 +35,11 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
+    "bower": "^1.6.5",
+    "browser-sync": "^2.9.11",
+    "del": "^2.0.2",
     "gulp": "^3.9.0",
     "polybuild": "^1.0.5",
-    "run-sequence": "^1.1.4",
-    "del": "^2.0.2",
-    "browser-sync": "^2.9.11"
+    "run-sequence": "^1.1.4"
   }
 }
