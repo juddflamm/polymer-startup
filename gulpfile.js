@@ -33,11 +33,21 @@ gulp.task('build-js', function() {
   .pipe(gulp.dest('built/public/js'));
 });
 
-gulp.task('build-elements', function() {
+gulp.task('build-elements', ['build-elements-index']);
+// Uncomment the below line when you add another page,
+// rename to match the page name,
+// uncomment the associated gulp task below, and rename the same
+// gulp.task('build-elements', ['build-elements-index','build-elements-another-page']);
+gulp.task('build-elements-index', function() {
   return gulp.src('elements/elements-index.html')
   .pipe(polybuild({maximumCrush: true}))
   .pipe(gulp.dest('built/public/elements'));
 });
+// gulp.task('build-elements-another-page', function() {
+//   return gulp.src('elements/elements-another-page.html')
+//   .pipe(polybuild({maximumCrush: true}))
+//   .pipe(gulp.dest('built/public/elements'));
+// });
 
 gulp.task('clean', function() {
   return del(['built/**/*']);
