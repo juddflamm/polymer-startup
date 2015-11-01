@@ -19,3 +19,10 @@ This will start the gulp script which will in turn build the app, start the node
 npm start
 ```
 This will start the node process directly.  To stop the node process just use `ctrl-c`.
+
+## How the Project is Structured
+The `/server` folder contains the node.js application.
+
+The `/css`, `/images`, `/js`, `elements`, `bower_components` folders contain the source files for the web client.
+
+All of the above folders get built into the `/built` folder.  Each folder has its own gulp task to process and copy the contents in the `/built` folder.
