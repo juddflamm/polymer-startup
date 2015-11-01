@@ -2,8 +2,11 @@
 Starter web app using Polymer, Bower, Node, Express, Gulp, Polybuild, and BrowserSync
 
 ## Getting Started
-1. clone this repo
-2. run `npm install` (this will also run bower install & gulp build after the npm install)
+```
+git clone https://github.com/kd7yva/polymer-startup.git
+npm install
+```
+package.json is configured to automatically run bower install & gulp build after the npm install
 
 ## Start Development Mode
 1. run `gulp dev` to start the app in development mode
