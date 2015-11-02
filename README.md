@@ -4,6 +4,7 @@ Starter web app using Polymer, Bower, Node, Express, Gulp, Polybuild, and Browse
 ## Getting Started
 ```
 git clone https://github.com/kd7yva/polymer-startup.git
+cd polymer-startup
 npm install
 ```
 package.json is configured to automatically run bower install & gulp build after the npm install
